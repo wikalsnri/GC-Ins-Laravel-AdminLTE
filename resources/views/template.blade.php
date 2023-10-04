@@ -1,7 +1,7 @@
 <html lang="en" style="height: auto;"><head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>@yield('title', 'AdminLTE Template')</title>
+  <title>@yield('title', 'AdminLTE Template') Wika</title>
 
 
   <link rel="stylesheet" href="{{ asset('css/adminlte.css') }}">
