@@ -11,4 +11,6 @@ class Profile extends Model
     protected $fillable = [
         'umur','bio','alamat','user-id'
     ];
+
+    
 }

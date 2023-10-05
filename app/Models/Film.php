@@ -11,4 +11,5 @@ class Film extends Model
     protected $fillable = [
         'judul','ringkasan','tahun','poster','genre-id'
     ];
+
 }

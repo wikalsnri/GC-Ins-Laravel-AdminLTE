@@ -11,4 +11,5 @@ class Genre extends Model
     protected $fillable = [
         'nama'
     ];
+
 }
