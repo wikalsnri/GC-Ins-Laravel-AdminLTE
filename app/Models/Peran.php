@@ -9,6 +9,6 @@ class Peran extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'nama'
+        'film-id','cast-id','nama'
     ];
 }

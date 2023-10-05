@@ -16,6 +16,7 @@ return new class extends Migration
             $table->integer('umur');
             $table->string('bio');
             $table->string('alamat');
+            $table->integer('user-id');
             $table->timestamps();
         });
     }

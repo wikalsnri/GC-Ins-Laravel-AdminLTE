@@ -9,6 +9,6 @@ class Kritik extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'content','point'
+        'user-id','film-id','content','point'
     ];
 }

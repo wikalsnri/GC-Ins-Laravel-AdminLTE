@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('kritiks', function (Blueprint $table) {
             $table->id();
+            $table->integer('user-id');
+            $table->integer('film-id');
             $table->string('content');
             $table->integer('point');
             $table->timestamps();
