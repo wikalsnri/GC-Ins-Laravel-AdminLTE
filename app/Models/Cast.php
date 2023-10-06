@@ -9,6 +9,6 @@ class Cast extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'nama','umur','bi;o'
+        'nama','umur','bio'
     ];
 }
